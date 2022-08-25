@@ -56,7 +56,7 @@ f = open('/content/sxm_facts.txt', 'r', encoding='UTF-8')
 sxm_facts = f.read().split('\n')
 f.close()
 
-bot = telebot.TeleBot('5523725569:AAEICUQ6xRLx7Ckh4joFfm5OwTJoOJFzSn0')
+bot = telebot.TeleBot('INSERT TOKEN')
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
